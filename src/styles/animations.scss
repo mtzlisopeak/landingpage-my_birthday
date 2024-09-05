@@ -1,0 +1,23 @@
+@keyframes backgroundAnimated {
+    0% {
+        background-position: 100%;
+    }
+    50% {
+        background-position: 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes arrowAnimated {
+    0% {
+        bottom: 17%;
+    }
+    50% {
+        bottom: 20%;
+    }
+    100% {
+        bottom: 17%;
+    }
+}

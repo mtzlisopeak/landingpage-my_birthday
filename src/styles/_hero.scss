@@ -1,0 +1,40 @@
+@use "animations.scss" as *;
+
+.hero {
+    background-image: linear-gradient(100deg, rgb(0, 85, 233), rgb(4, 184, 255), rgb(170, 104, 255));
+    background-size: 300%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: backgroundAnimated 3s infinite linear;
+    position: relative;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__title, &__counter {
+        font-size: 4vh;
+    }
+
+    &__title {
+        font-weight: 700;
+        margin-bottom: 1.6vh;
+    }
+
+    &__counter {
+        font-weight: 400;
+    }
+
+    @media (max-width: 767px){
+        &__title, &__counter {
+            font-size: 3vh;
+        }
+    }
+}

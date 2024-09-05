@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40,40,40);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3vh;
+
+        div {
+            width: 64vh;
+
+            h2 {
+                font-size: 3vh;
+            }
+
+            p {
+                font-size: 1.5vh;
+            }
+        }
+    }
+
+    img {
+        height: 20vw;
+    }
+
+    @media (max-width: 640px){
+
+        .container {
+            display: block;
+
+            div {
+                width: auto;
+            }
+        }
+
+        img {
+            display: block;
+            height: 20vh;
+        }
+
+    }
+}

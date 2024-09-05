@@ -1,0 +1,15 @@
+.top {
+    display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    overflow: hidden;
+    width: 6vh;
+    height: 6vh;
+    background-color: slateblue;
+    background-image: url(components/btn.png);
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 80%;
+    opacity: 0.8;
+}

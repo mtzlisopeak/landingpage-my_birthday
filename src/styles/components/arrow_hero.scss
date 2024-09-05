@@ -1,0 +1,17 @@
+@use "../animations.scss" as *;
+
+.arrow {
+    position: absolute;
+    bottom: 10%;
+    animation: arrowAnimated 2s infinite linear;
+
+    img {
+        width: 6vh;
+    }
+
+    @media (max-width: 640px){
+        img {
+            width: 4vh;
+        }
+    }
+}
